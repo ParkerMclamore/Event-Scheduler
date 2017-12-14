@@ -13,40 +13,40 @@
 
   <div class="field">
     <%= form.label :name %>
-    <%= form.text_field :name, id: :appointment_name %>
+    <%= form.text_field :name, id: :appointment_name, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :email %>
-    <%= form.text_field :email, id: :appointment_email %>
+    <%= form.text_field :email, id: :appointment_email, required: true %>
   </div>
 
   <div class="field">
-    <%= form.label :phone_num %>
-    <%= form.text_field :phone_num, id: :appointment_phone_num %>
+    <%= form.label :phone_number%>
+    <%= form.text_field :phone_num, id: :appointment_phone_num, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :address %>
-    <%= form.text_field :address, id: :appointment_address %>
+    <%= form.text_field :address, id: :appointment_address, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :event_details %>
-    <%= form.text_area :event_details, id: :appointment_event_details %>
+    <%= form.text_area :event_details, id: :appointment_event_details, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :date %>
-    <%= form.text_field :date, id: :appointment_date %>
+    <%= form.text_field :date, id: :appointment_date, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :time %>
-    <%= form.text_field :time, id: :appointment_time %>
+    <%= form.text_field :time, id: :appointment_time, required: true %>
   </div>
 
   <div class="actions">
-    <%= form.submit  "Submit Event Request" %>
+    <%= form.submit  "Submit Event Request", class: "btn btn-primary" %>
   </div>
 <% end %>
