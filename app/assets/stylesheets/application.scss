@@ -65,3 +65,14 @@
    text-align: center;
    font-size: 45px;
  }
+
+ iframe {
+     border-width: 2px;
+     border-style: inset;
+     border-color: gray;
+     border-top-color: gray;
+     border-right-color: gray;
+     border-bottom-color: gray;
+     border-left-color: gray;
+     border-image: gray;
+ }

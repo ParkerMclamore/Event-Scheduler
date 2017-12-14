@@ -19,6 +19,10 @@ class AppointmentsController < ApplicationController
   def gallery
   end
 
+  def calendar
+    @appointment = Appointment.new
+  end
+
   # GET /appointments/new
   def new
     @appointment = Appointment.new
