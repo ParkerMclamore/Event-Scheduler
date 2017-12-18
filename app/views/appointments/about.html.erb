@@ -8,8 +8,28 @@
     <link href = "about.scss" rel = "stylesheet" type = "text/scss">
     <meta charset="utf-8">
     <title>About Me</title>
+    <nav class="navbar navbar-inverse">
+
+       <div class="container-fluid">
+          <div class="container">
+            <div class="navbar-header">
+                <%= link_to 'DJ Crues', root_path, class: "navbar-brand" %>
+            </div>
+            <div class="navbar-header">
+                <%= link_to 'About', about_path, class: "navbar-brand" %>
+            </div>
+            <div class="navbar-header">
+                <%= link_to 'Gallery', gallery_path, class: "navbar-brand" %>
+              </div>
+            <div class="navbar-header">
+              <%= link_to 'Calendar', calendar_path, class: "navbar-brand" %>
+          </div>
+        </div>
+      </div>
+    </nav>
   </head>
   <body>
+    <div class="container">
     <div class= "abouth1">
       <h1>My Story</h1>
         <div class= "abouth2">
@@ -33,5 +53,6 @@
         </div>
       </div>
     </div>
+  </div>
   </body>
 </html>

@@ -11,39 +11,39 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :name %>
-    <%= form.text_field :name, id: :appointment_name, required: true %>
+    <%= form.text_field :name, id: :appointment_name, required: true, class:"form-control"%>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :email %>
-    <%= form.text_field :email, id: :appointment_email, required: true %>
+    <%= form.text_field :email, id: :appointment_email, required: true, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :phone_number%>
-    <%= form.text_field :phone_num, id: :appointment_phone_num, required: true %>
+    <%= form.text_field :phone_num, id: :appointment_phone_num, required: true, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :address %>
-    <%= form.text_field :address, id: :appointment_address, required: true %>
+    <%= form.text_field :address, id: :appointment_address, required: true, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :event_details %>
-    <%= form.text_area :event_details, id: :appointment_event_details, required: true %>
+    <%= form.text_area :event_details, id: :appointment_event_details, required: true, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :date %>
-    <%= form.text_field :date, id: :appointment_date, required: true %>
+    <%= form.text_field :date, id: :appointment_date, required: true, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :time %>
-    <%= form.text_field :time, id: :appointment_time, required: true %>
+    <%= form.text_field :time, id: :appointment_time, required: true, class:"form-control"%>
   </div>
 
   <div class="actions">

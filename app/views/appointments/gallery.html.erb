@@ -1,9 +1,28 @@
 <html>
 <head>
+  <nav class="navbar navbar-inverse">
 
+     <div class="container-fluid">
+        <div class="container">
+          <div class="navbar-header">
+              <%= link_to 'DJ Crues', root_path, class: "navbar-brand" %>
+          </div>
+          <div class="navbar-header">
+              <%= link_to 'About', about_path, class: "navbar-brand" %>
+          </div>
+          <div class="navbar-header">
+              <%= link_to 'Gallery', gallery_path, class: "navbar-brand" %>
+            </div>
+          <div class="navbar-header">
+            <%= link_to 'Calendar', calendar_path, class: "navbar-brand" %>
+        </div>
+      </div>
+    </div>
+  </nav>
 
 </head>
 <body>
+  <div class="container">
 <div class="gallery">
   <a target="_blank" href="videodj.gif">
     <img src=/assets/videodj.gif alt="picture">
@@ -77,6 +96,6 @@
   <div class="desc">Add a description of the image here</div>
 </div>
 
-
+</div>
 </body>
 </html>

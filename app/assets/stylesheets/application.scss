@@ -32,7 +32,7 @@
 //=h1 front page
 
 body {
-  background: url(bg1.jpg);
+  background: url(bg2.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,6 +45,24 @@ body {
   background-color: lightgray;
 }
 
+#mainpage {
+  color: #D4AF37;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#mainpage h1 {
+  font-size: 100px;
+  font: Arial;
+}
+
+p {
+  color: #D4AF37;
+  display: inline-block;
+}
 
  .navbar-header {
    display: inline-block;
@@ -65,10 +83,15 @@ body {
   margin-left: 350px;
 }
 
- html {
+html {
    background-color: black;
  }
 
+.form-group {
+  color: black;
+  font-family: arial bold;
+  font-size: 16px;
+}
 
 
 
