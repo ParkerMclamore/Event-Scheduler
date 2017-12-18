@@ -1,4 +1,26 @@
-<p id="notice"><%= notice %></p>
+<nav class="navbar navbar-inverse">
+
+   <div class="container-fluid">
+      <div class="container">
+        <div class="navbar-header">
+            <%= link_to 'Home', root_path, class: "navbar-brand" %>
+        </div>
+        <div class="navbar-header">
+            <%= link_to 'About', about_path, class: "navbar-brand" %>
+        </div>
+        <div class="navbar-header">
+            <%= link_to 'Gallery', gallery_path, class: "navbar-brand" %>
+          </div>
+        <div class="navbar-header">
+          <%= link_to 'Calendar', calendar_path, class: "navbar-brand" %>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="showpage">
+<h1>Thank you for requesting an event with DJ Crues!</h1>
+<h3>We will be reaching out to confirm the following informtion:</h3>
 
 <p>
   <strong>Name:</strong>
@@ -37,3 +59,4 @@
 
 <%= link_to 'Edit', edit_appointment_path(@appointment) %> |
 <%= link_to 'Back', appointments_path %>
+</div>

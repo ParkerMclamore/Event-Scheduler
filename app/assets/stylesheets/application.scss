@@ -46,22 +46,34 @@ body {
 }
 
 #mainpage {
-  color: #D4AF37;
-  background: rgba(0,0,0,0.5);
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+ position: fixed;
+ top: 30%;
+ left: 35%;
+ background: rgba(0,0,0,0.5);
+width: 100%;
 }
 
 #mainpage h1 {
-  font-size: 100px;
-  font: Arial;
+ color: #D4AF37 ;
+ font-size: 90px;
+ font-family: Verdana;
 }
 
-p {
+#mainpage p{
+ display: inline-block;
+ font-size: 28px;
+ margin-left: 10px;
+
+}
+
+#DJC{
   color: #D4AF37;
-  display: inline-block;
+  margin-left: 30px;
+  text-align: center;
+}
+
+#showpage {
+ text-align: center;
 }
 
  .navbar-header {
@@ -80,7 +92,7 @@ p {
  }
 
 .navbar .container {
-  margin-left: 350px;
+  margin-left: 500px;
 }
 
 html {
