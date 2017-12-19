@@ -1,11 +1,22 @@
-<h1>We have received your request for <%= @appointment.name %>!</h1>
-<p>Please review this request and send a confirmation email</p>
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Thank You!</title>
+ </head>
+ <body>
+   <h1>New Event Booking Request</h1>
+   <h3>We have received your request for <%= @appointment.name %>!</h3>
+   <p>Please review this request and send a confirmation email</p>
 
-<p>Event Details:</p>
-<%= @appointment.name %>
-<%= @appointment.email %>
-<%= @appointment.phone_num %>
-<%= @appointment.address %>
-<%= @appointment.event_details %>
-<%= @appointment.date %>
-<%= @appointment.time %>
+   <p>Event Details:</p>
+   <%= @appointment.name %><br>
+   <%= @appointment.email %><br>
+   <%= @appointment.phone_num %><br>
+   <%= @appointment.address %><br>
+   <%= @appointment.event_details %><br>
+   <%= @appointment.date %><br>
+   <%= @appointment.time %><br>
+
+ </body>
+</html>

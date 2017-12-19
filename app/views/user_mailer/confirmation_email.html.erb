@@ -1,13 +1,23 @@
-<h1>We have received your request <%= @appointment.name %>!</h1>
-<p>We will reach out to you after we confirm that the following time is available for your event.</p>
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title></title>
+ </head>
+ <body>
 
-<p>Event Details:</p>
-<%= @appointment.name %>
-<%= @appointment.email %>
-<%= @appointment.phone_num %>
-<%= @appointment.address %>
-<%= @appointment.event_details %>
-<%= @appointment.date %>
-<%= @appointment.time %>
+   <h1>Thank you for submitting a booking request <%= @appointment.name %>!</h1>
+   <h3>We will reach out to you after we confirm that the following time is available for your event.</h3>
 
-<p>Please let us know if any of the following information changes!</p>
+   <p>Event Details:</p>
+   <%= @appointment.name %><br>
+   <%= @appointment.email %><br>
+   <%= @appointment.phone_num %><br>
+   <%= @appointment.address %><br>
+   <%= @appointment.event_details %><br>
+   <%= @appointment.date %><br>
+   <%= @appointment.time %><br>
+   <p>Please let us know if any of the following information changes!</p>
+
+ </body>
+</html>

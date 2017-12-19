@@ -31,10 +31,10 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
-  config.action_mailer.delivery_method = :sendmail
-  config.action_mailer.sendmail_settings = {
-    address: 'sendmail.gmail.com',
-    port: 3000,
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address: 'smtp.gmail.com',
+    port: 587,
     domain: 'gmail.com',
     user_name: "#{ENV['gmail_un']}@gmail.com",
     password: "#{ENV['gmail_pw']}",
