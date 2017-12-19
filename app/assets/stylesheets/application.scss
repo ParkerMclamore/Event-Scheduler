@@ -24,8 +24,8 @@
  }
 
  .navbar-brand:hover {
-  color: gold;
-  background-color: rgba(0,0,0,0.5);  
+  color: black;
+  background-color: rgba(255,255,255,0.5);
 }
 
 .logo {
@@ -147,14 +147,21 @@ iframe {
 }
 
 .abouth1 img {
-  height: 500px;
+  height: 600px;
   width: auto;
   margin-top: 15px;
+  margin-left: 35px;
 }
 
 .abouth1 p {
   margin-top: 15px;
   margin-left: 15px;
   color: white;
-  background-color: rgba(128,128,128,0.7)
+  font-size: 16px;
+
+}
+
+.abouth1 .col-md-5 {
+  background-color: rgba(128,128,128,0.7);
+    margin-top: 10px;
 }
