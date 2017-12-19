@@ -19,22 +19,42 @@
   padding: 0;
  }
 
- body {
-   background: url(bg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+ .navbar-brand {
+  color: white;
  }
 
-#gif {
+ .navbar-brand:hover {
+  color: gold;
+  background-color: rgba(0,0,0,0.5);  
+}
 
+.logo {
+  padding-top: 10px;
+}
+
+.logo p {
+  display: inline-block;
+  color: white;
+  float: right;
+}
+
+ body {
   background: url(turntable2.gif);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+ }
+
+ .calendar {
+  background: url(bg2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
  }
 
 #logo img {
@@ -47,11 +67,11 @@
  position: fixed;
  top: 30%;
  left: 35%;
-width: 100%;
+ width: 100%;
 }
 
 #mainpage h1 {
- color: white ;
+ color: white;
  font-size: 90px;
  font-family: cursive;
 }
@@ -83,25 +103,6 @@ width: 100%;
  text-align: center;
 }
 
-.navbar-header {
-  display: inline-block;
-  font-family: sans-serif;
-  font-size: 22px;
-  color: #fff;
-  padding: 8px 12px;
-  border-width: 2px;
-  border-color: gray;
-  border-top-color: gray;
-  border-right-color: gray;
-  border-bottom-color: gray;
-  border-left-color: gray;
-  border-image: gray;
-}
-
-.navbar .container {
-  margin-left: 500px;
-}
-
 html {
    background-color: black;
  }
@@ -111,8 +112,6 @@ html {
   font-family: arial bold;
   font-size: 16px;
 }
-
-
 
 iframe {
   border-width: 2px;
@@ -144,6 +143,7 @@ iframe {
 .abouth1 h1{
   font-size: 50px;
   text-align: center;
+  color: white;
 }
 
 .abouth1 img {
@@ -155,4 +155,6 @@ iframe {
 .abouth1 p {
   margin-top: 15px;
   margin-left: 15px;
+  color: white;
+  background-color: rgba(128,128,128,0.7)
 }

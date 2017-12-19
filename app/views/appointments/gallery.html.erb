@@ -1,24 +1,15 @@
 <html>
 <head>
-  <nav class="navbar navbar-inverse">
+  <div class="header">
+    <div class="logo">
+      <%= image_tag("logo.png", :size => "130x75") %>
 
-     <div class="container-fluid">
-        <div class="container">
-          <div class="navbar-header">
-              <%= link_to 'Home', root_path, class: "navbar-brand" %>
-          </div>
-          <div class="navbar-header">
-              <%= link_to 'About', about_path, class: "navbar-brand" %>
-          </div>
-          <div class="navbar-header">
-              <%= link_to 'Gallery', gallery_path, class: "navbar-brand" %>
-            </div>
-          <div class="navbar-header">
-            <%= link_to 'Book Event', calendar_path, class: "navbar-brand" %>
-        </div>
-      </div>
+      <p><%= link_to 'Book Event', calendar_path, class: "navbar-brand" %></p>
+      <p><%= link_to 'Gallery', gallery_path, class: "navbar-brand" %></p>
+      <p><%= link_to 'About', about_path, class: "navbar-brand" %></p>
+      <p><%= link_to 'Home', root_path, class: "navbar-brand" %></p>
     </div>
-  </nav>
+  </div>
 
 </head>
 <body>

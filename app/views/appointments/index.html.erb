@@ -1,12 +1,18 @@
 <body id="gif">
-<p id="notice"><%= notice %></p>
+<div class="header">
+    <div class="logo">
+      <%= image_tag("logo.png", :size => "130x75") %>
+
+      <p><%= link_to 'Book Event', calendar_path, class: "navbar-brand" %></p>
+      <p><%= link_to 'Gallery', gallery_path, class: "navbar-brand" %></p>
+      <p><%= link_to 'About', about_path, class: "navbar-brand" %></p>
+      <p><%= link_to 'Home', root_path, class: "navbar-brand" %></p>
+    </div>
+  </div>
 
 <!-- <h1 id="front"> Dj Crues</h1> -->
 <div id="mainpage">
 <h1>DJ CRUES</h1>
-   <p><%= link_to 'About', about_path, id:"DJC" %></p>
-   <p><%= link_to 'Gallery', gallery_path, id:"DJC" %></p>
-   <p><%= link_to 'Book Event', calendar_path, id:"DJC" %></p>
 
 </div>
 </body>
